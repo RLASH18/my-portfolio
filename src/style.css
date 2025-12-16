@@ -1,10 +1,15 @@
 @import "tailwindcss";
+@config "../tailwind.config.js";
 
 body {
   font-family: 'Inter', sans-serif;
   background-color: #050505;
   color: #ffffff;
   cursor: url('https://cur.cursors-4u.net/games/gam-13/gam1269.cur'), auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .pixel-font {

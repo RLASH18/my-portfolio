@@ -12,13 +12,15 @@ import {
     Layers,
     Smartphone,
     GitBranch,
-    Monitor
+    Monitor,
+    Zap
 } from 'lucide-vue-next';
 
 export const TECH_STACK: { row1: TechItem[], row2: TechItem[], row3: TechItem[] } = {
     row1: [
         { name: 'JavaScript', icon: Code2, color: 'text-yellow-400' },
         { name: 'Vue.js', icon: Globe, color: 'text-green-500' },
+        { name: 'Vite', icon: Zap, color: 'text-purple-500' },
         { name: 'Inertia.js', icon: Layers, color: 'text-purple-500' },
         { name: 'Tailwind CSS', icon: Layout, color: 'text-blue-400' },
         { name: 'Bootstrap', icon: Layout, color: 'text-purple-600' },
