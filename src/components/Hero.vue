@@ -21,6 +21,7 @@ let typeTimeout: number;
 // Typewriter Logic
 const handleTyping = () => {
     const currentRole = roles[roleIndex.value];
+    if (!currentRole) return;
 
     if (isDeleting.value) {
         // Deleting
