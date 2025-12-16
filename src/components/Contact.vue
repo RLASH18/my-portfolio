@@ -20,21 +20,21 @@ import { Mail, Github, Linkedin, MessageSquare, Send } from 'lucide-vue-next';
                             I'm currently looking for internships and junior positions. My inbox is always open!
                         </p>
                         <div class="space-y-4 pt-4">
-                            <a href="mailto:lacdangryan18.com"
+                            <a href="mailto:lacdangryan18.com" target="_blank" rel="noopener noreferrer"
                                 class="flex items-center gap-4 text-white hover:text-green-400 transition-colors">
                                 <div class="p-2 bg-neutral-800">
                                     <Mail :size="18" />
                                 </div>
                                 <span class="mono-font text-sm">lacdangryan18.com</span>
                             </a>
-                            <a href="https://github.com/RLASH18"
+                            <a href="https://github.com/RLASH18" target="_blank" rel="noopener noreferrer"
                                 class="flex items-center gap-4 text-white hover:text-green-400 transition-colors">
                                 <div class="p-2 bg-neutral-800">
                                     <Github :size="18" />
                                 </div>
                                 <span class="mono-font text-sm">github.com/RLASH18</span>
                             </a>
-                            <a href="#"
+                            <a href="#" target="_blank" rel="noopener noreferrer"
                                 class="flex items-center gap-4 text-white hover:text-green-400 transition-colors">
                                 <div class="p-2 bg-neutral-800">
                                     <Linkedin :size="18" />

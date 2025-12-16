@@ -39,7 +39,8 @@ import { ExternalLink, Github } from 'lucide-vue-next';
                         </p>
 
                         <div class="flex gap-3">
-                            <a v-if="project.liveUrl && project.liveUrl !== '#'" :href="project.liveUrl"
+                            <a v-if="project.liveUrl && project.liveUrl !== '#'" :href="project.liveUrl" target="_blank"
+                                rel="noopener noreferrer"
                                 class="flex-1 flex items-center justify-center gap-2 bg-white text-black py-3 pixel-font text-[10px] hover:bg-green-500 transition-colors">
                                 <ExternalLink :size="14" /> LIVE
                             </a>
@@ -47,7 +48,7 @@ import { ExternalLink, Github } from 'lucide-vue-next';
                                 class="flex-1 flex items-center justify-center gap-2 bg-gray-700 text-gray-500 py-3 pixel-font text-[10px] cursor-not-allowed opacity-50">
                                 <ExternalLink :size="14" /> LIVE
                             </button>
-                            <a :href="project.codeUrl"
+                            <a :href="project.codeUrl" target="_blank" rel="noopener noreferrer"
                                 class="flex-1 flex items-center justify-center gap-2 border-2 border-white/10 py-3 pixel-font text-[10px] hover:border-green-500 hover:text-green-500 transition-colors">
                                 <Github :size="14" /> CODE
                             </a>

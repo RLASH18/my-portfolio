@@ -11,7 +11,7 @@ const roleIndex = ref(0);
 const isDeleting = ref(false);
 
 // Configuration
-const roles = ['SOFTWARE_DEVELOPER', 'FULLSTACK_ENGINEER', 'COMPUTER_SCIENCE_STUDENT', 'CODE_ENTHUSIAST'];
+const roles = ['SOFTWARE_DEVELOPER', 'FULLSTACK_DEVELOPER', 'COMPUTER_SCIENCE_STUDENT', 'CODE_ENTHUSIAST'];
 const typingSpeed = 150;
 const deletingSpeed = 75;
 const pauseDuration = 2000;
@@ -115,6 +115,7 @@ onUnmounted(() => {
 
                     <div class="flex gap-4">
                         <a v-for="(social, i) in socialLinks" :key="i" :href="social.href" :aria-label="social.label"
+                            target="_blank" rel="noopener noreferrer"
                             class="text-gray-400 hover:text-green-500 hover:-translate-y-1 transition-all">
                             <component :is="social.icon" :size="20" />
                         </a>
