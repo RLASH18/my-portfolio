@@ -1,9 +1,8 @@
-import type { LucideIcon } from 'lucide-vue-next';
-
 export interface TechItem {
     name: string;
-    icon: LucideIcon;
+    iconSlug: string;
     color: string;
+    customSvg?: string;
 }
 
 export interface Project {

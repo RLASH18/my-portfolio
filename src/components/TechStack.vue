@@ -9,7 +9,7 @@ import { TECH_STACK } from '@/data/tech-stack';
             <h2 class="pixel-font text-3xl text-center">
                 TECH <span class="text-green-500">STACK</span>
             </h2>
-            <p class="text-center text-gray-500 mt-4 mono-font">Equipped with the finest tools in the trade.</p>
+            <p class="text-center text-gray-500 mt-4 mono-font">Technologies I use to build modern applications.</p>
         </div>
 
         <div class="space-y-8">

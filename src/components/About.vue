@@ -7,7 +7,7 @@ const accentRef = ref<HTMLElement | null>(null);
 
 const cards = [
     { icon: Rocket, title: 'MISSION', text: 'Help others & grow' },
-    { icon: User, title: 'ROLE', text: 'Software Developer' },
+    { icon: User, title: 'ROLE', text: 'Junior Software Developer' },
     { icon: Heart, title: 'PASSION', text: 'Building useful apps' },
 ];
 
