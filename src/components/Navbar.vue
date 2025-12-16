@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
-import { Gamepad2, Menu, X } from 'lucide-vue-next';
+import { Cpu, Menu, X } from 'lucide-vue-next';
 
 const isScrolled = ref(false);
 const isMenuOpen = ref(false);
@@ -33,7 +33,7 @@ onUnmounted(() => {
         <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
             <a href="#" class="flex items-center gap-3 group">
                 <div class="bg-green-500 p-2 pixel-border group-hover:scale-110 transition-transform">
-                    <Gamepad2 class="text-black w-6 h-6" />
+                    <Cpu class="text-black w-6 h-6" />
                 </div>
                 <span class="pixel-font text-sm md:text-lg tracking-tighter hover:text-green-400 transition-colors">
                     RY<span class="text-green-500">AN</span>

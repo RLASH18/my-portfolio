@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Gamepad2 } from 'lucide-vue-next';
+import { Cpu } from 'lucide-vue-next';
 </script>
 
 <template>
@@ -7,7 +7,7 @@ import { Gamepad2 } from 'lucide-vue-next';
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-center gap-8">
                 <div class="flex items-center gap-4">
-                    <Gamepad2 class="text-green-500" />
+                    <Cpu class="text-green-500" />
                     <div class="pixel-font text-xs">RY<span class="text-green-500">AN</span> © 2025</div>
                 </div>
 
