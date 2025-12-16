@@ -100,19 +100,23 @@ onUnmounted(() => {
                     Building full-stack applications while learning, improving, and keeping things simple.
                 </p>
 
-                <div class="hero-anim flex flex-wrap gap-8 items-center mb-12">
-                    <div class="flex gap-4">
-                        <a v-for="(social, i) in socialLinks" :key="i" :href="social.href" :aria-label="social.label"
-                            class="p-3 bg-neutral-900 border-2 border-white/5 hover:border-green-500 hover:text-green-500 hover:-translate-y-1 transition-all">
-                            <component :is="social.icon" :size="20" />
-                        </a>
-                    </div>
-
-                    <div class="flex gap-4">
+                <div class="hero-anim flex flex-col gap-6 mb-12">
+                    <div class="flex flex-wrap gap-4">
                         <a href="#projects"
                             class="group flex items-center gap-3 bg-green-500 text-black px-8 py-4 pixel-font text-[10px] md:text-sm hover:bg-white transition-all">
                             VIEW PROJECTS
                             <ArrowRight class="group-hover:translate-x-2 transition-transform" />
+                        </a>
+                        <a href="#contact"
+                            class="group flex items-center gap-3 border-2 border-white/10 px-8 py-4 pixel-font text-[10px] md:text-sm hover:border-green-500 hover:text-green-500 transition-all">
+                            CONTACT ME
+                        </a>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <a v-for="(social, i) in socialLinks" :key="i" :href="social.href" :aria-label="social.label"
+                            class="text-gray-400 hover:text-green-500 hover:-translate-y-1 transition-all">
+                            <component :is="social.icon" :size="20" />
                         </a>
                     </div>
                 </div>
