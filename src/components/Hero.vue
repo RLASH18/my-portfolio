@@ -53,7 +53,7 @@ const socialLinks = [
     { icon: Github, href: 'https://github.com/RLASH18', label: 'GitHub' },
     { icon: Mail, href: 'mailto:lacdangryan18@gmail.com', label: 'Gmail' },
     { icon: Instagram, href: 'https://www.instagram.com/ryanlester_18', label: 'Instagram' },
-    { icon: Linkedin, href: "https://linkedin.com", label: 'LinkedIn' }
+    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' }
 ];
 
 onMounted(() => {
@@ -81,7 +81,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <section ref="containerRef" class="relative min-h-screen flex items-center pt-36 md:pt-20 overflow-hidden">
+    <section ref="containerRef" class="relative min-h-screen flex items-center pt-24 md:pt-20 overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 w-full">
             <div class="max-w-4xl">
                 <h1 class="hero-anim pixel-font text-4xl md:text-6xl lg:text-8xl leading-none mb-4">
@@ -101,23 +101,28 @@ onUnmounted(() => {
                 </p>
 
                 <div class="hero-anim flex flex-col gap-6 mb-12">
-                    <div class="flex flex-wrap gap-4">
+                    <div class="flex flex-row flex-wrap gap-3">
                         <a href="#projects"
-                            class="group flex items-center gap-3 bg-green-500 text-black px-8 py-4 pixel-font text-[10px] md:text-sm hover:bg-white transition-all">
+                            class="group flex items-center gap-2 bg-green-500 text-black px-4 py-2 text-[9px] sm:px-6 sm:py-3 sm:text-[10px] md:px-8 md:py-4 md:text-sm pixel-font hover:bg-white transition-all">
                             VIEW PROJECTS
-                            <ArrowRight class="group-hover:translate-x-2 transition-transform" />
+                            <ArrowRight class="w-3 h-3 md:w-4 md:h-4 group-hover:translate-x-2 transition-transform" />
                         </a>
+
                         <a href="#contact"
-                            class="group flex items-center gap-3 border-2 border-white/10 px-8 py-4 pixel-font text-[10px] md:text-sm hover:border-green-500 hover:text-green-500 transition-all">
+                            class="group flex items-center gap-2 border-2 border-white/10 px-4 py-2 text-[9px] sm:px-6 sm:py-3 sm:text-[10px] md:px-8 md:py-4 md:text-sm pixel-font hover:border-green-500 hover:text-green-500 transition-all">
                             CONTACT ME
                         </a>
                     </div>
 
                     <div class="flex gap-4">
-                        <a v-for="(social, i) in socialLinks" :key="i" :href="social.href" :aria-label="social.label"
-                            target="_blank" rel="noopener noreferrer"
+                        <a v-for="(social, i) in socialLinks" 
+                            :key="i" 
+                            :href="social.href" 
+                            :aria-label="social.label"
+                            target="_blank" 
+                            rel="noopener noreferrer"
                             class="text-gray-400 hover:text-green-500 hover:-translate-y-1 transition-all">
-                            <component :is="social.icon" :size="20" />
+                            <component :is="social.icon" :size="18" />
                         </a>
                     </div>
                 </div>
