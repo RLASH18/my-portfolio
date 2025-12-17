@@ -12,13 +12,16 @@ import { Cpu } from 'lucide-vue-next';
                 </div>
 
                 <div class="flex gap-8">
-                    <a href="#about" class="mono-font text-xs text-gray-500 hover:text-white transition-colors">ABOUT</a>
-                    <a href="#stacks" class="mono-font text-xs text-gray-500 hover:text-white transition-colors">TECH-STACK</a>
-                    <a href="#projects" class="mono-font text-xs text-gray-500 hover:text-white transition-colors">PROJECTS</a>
+                    <a href="#about"
+                        class="mono-font text-xs text-gray-500 hover:text-white transition-colors">ABOUT</a>
+                    <a href="#stacks"
+                        class="mono-font text-xs text-gray-500 hover:text-white transition-colors">TECH-STACK</a>
+                    <a href="#projects"
+                        class="mono-font text-xs text-gray-500 hover:text-white transition-colors">PROJECTS</a>
                 </div>
 
                 <div class="text-gray-600 mono-font text-[10px]">
-                    BUILT WITH <span class="text-red-500">❤</span> USING VUE & TAILWIND
+                    NEVER STOP CREATING 🔥
                 </div>
             </div>
 
