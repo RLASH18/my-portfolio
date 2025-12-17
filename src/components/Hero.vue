@@ -77,7 +77,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <section ref="containerRef" class="relative min-h-screen flex items-center pt-24 md:pt-20 overflow-hidden">
+    <section ref="containerRef" class="relative min-h-screen flex items-center pt-20 md:pt-20 overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 w-full">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                 <!-- Left Side: Text Content -->

@@ -22,21 +22,23 @@ import { ExternalLink, Github } from 'lucide-vue-next';
                     <div class="aspect-video relative overflow-hidden">
                         <img :src="project.image" :alt="project.title"
                             class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500" />
-                        <div class="absolute top-4 left-4 flex gap-2">
-                            <span v-for="tag in project.tags" :key="tag"
-                                class="bg-black/80 px-2 py-1 pixel-font text-[8px] text-green-400">
-                                {{ tag }}
-                            </span>
-                        </div>
                     </div>
 
                     <div class="p-6 flex flex-col flex-grow">
                         <h3 class="pixel-font text-lg mb-4 text-white group-hover:text-green-400 transition-colors">
                             {{ project.title }}
                         </h3>
-                        <p class="text-gray-400 text-sm mono-font mb-8 flex-grow">
+                        <p class="text-gray-400 text-sm mono-font mb-4 flex-grow">
                             {{ project.description }}
                         </p>
+
+                        <!-- Tags -->
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span v-for="tag in project.tags" :key="tag"
+                                class="bg-black/80 border border-green-500/30 px-2 py-1 pixel-font text-[8px] text-green-400">
+                                {{ tag }}
+                            </span>
+                        </div>
 
                         <div class="flex gap-3">
                             <a v-if="project.liveUrl && project.liveUrl !== '#'" :href="project.liveUrl" target="_blank"
