@@ -65,19 +65,19 @@ onMounted(() => {
                                 <div class="space-y-1">
                                     <div class="flex justify-between text-[7px] md:text-[8px] mono-font font-bold">
                                         <span>EXP: PHP</span>
-                                        <span>72%</span>
+                                        <span>62%</span>
                                     </div>
                                     <div class="w-full bg-black/20 h-1.5 md:h-2">
-                                        <div class="bg-black w-[72%] h-full"></div>
+                                        <div class="bg-black w-[62%] h-full"></div>
                                     </div>
                                 </div>
                                 <div class="space-y-1">
                                     <div class="flex justify-between text-[7px] md:text-[8px] mono-font font-bold">
                                         <span>EXP: LARAVEL</span>
-                                        <span>55%</span>
+                                        <span>35%</span>
                                     </div>
                                     <div class="w-full bg-black/20 h-1.5 md:h-2">
-                                        <div class="bg-black w-[55%] h-full"></div>
+                                        <div class="bg-black w-[35%] h-full"></div>
                                     </div>
                                 </div>
                             </div>
