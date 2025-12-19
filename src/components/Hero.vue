@@ -88,8 +88,8 @@ onUnmounted(() => {
                     </h1>
 
                     <div class="hero-anim h-8 mb-8">
-                        <span class="pixel-font text-sm md:text-xl text-gray-400">
-                            {{ ">_ " }} {{ displayText }}
+                        <span class="pixel-font text-xs md:text-xl text-gray-400">
+                            {{ "> " }} {{ displayText }}
                             <span class="animate-pulse inline-block w-3 h-6 bg-green-500 ml-1 align-middle"></span>
                         </span>
                     </div>
@@ -114,7 +114,7 @@ onUnmounted(() => {
                         </div>
 
                         <div class="flex gap-4">
-                            <a v-for="(social, i) in socialLinks" :key="i" :href="social.href"
+                            <a v-for="(social, i) in socialLinks" :key="i" :href="social.href" :title="social.label"
                                 :aria-label="social.label" target="_blank" rel="noopener noreferrer"
                                 class="text-gray-400 hover:text-green-500 hover:-translate-y-1 transition-all">
                                 <component :is="social.icon" :size="18" />

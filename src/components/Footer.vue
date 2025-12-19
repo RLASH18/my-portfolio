@@ -14,7 +14,7 @@ import { Cpu } from 'lucide-vue-next';
                 <div class="flex gap-8">
                     <a href="#about"
                         class="mono-font text-xs text-gray-500 hover:text-white transition-colors">ABOUT</a>
-                    <a href="#stacks"
+                    <a href="#stack"
                         class="mono-font text-xs text-gray-500 hover:text-white transition-colors">TECH-STACK</a>
                     <a href="#projects"
                         class="mono-font text-xs text-gray-500 hover:text-white transition-colors">PROJECTS</a>
