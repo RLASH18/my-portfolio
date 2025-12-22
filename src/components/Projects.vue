@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { PROJECTS } from '@/data/projects';
-import { ExternalLink, Github } from 'lucide-vue-next';
+import { ExternalLink, Github, ArrowUpRight } from 'lucide-vue-next';
 </script>
 
 <template>
@@ -56,9 +56,18 @@ import { ExternalLink, Github } from 'lucide-vue-next';
                             </a>
                         </div>
                     </div>
-
                 </div>
             </div>
+
+            <div class="flex justify-center mt-8">
+                <a href="https://github.com/RLASH18?tab=repositories" target="_blank" rel="noopener noreferrer"
+                    class="group inline-flex items-center gap-2 bg-green-500 text-black px-4 py-2 text-[9px] sm:px-6 sm:py-3 sm:text-[10px] md:px-8 md:py-4 md:text-sm pixel-font hover:bg-white transition-all">
+                    SEE MORE PROJECTS
+                    <ArrowUpRight
+                        class="w-3 h-3 md:w-4 md:h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                </a>
+            </div>
+
         </div>
     </section>
 </template>
