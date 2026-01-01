@@ -32,7 +32,7 @@ onUnmounted(() => {
     ]">
         <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
             <a href="#" class="flex items-center gap-3 group">
-                <div class="bg-green-500 p-2 pixel-border group-hover:scale-110 transition-transform">
+                <div class="bg-green-500 p-2 pixel-border">
                     <Cpu class="text-black w-6 h-6" />
                 </div>
                 <span class="pixel-font text-sm md:text-lg tracking-tighter hover:text-green-400 transition-colors">

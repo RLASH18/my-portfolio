@@ -8,7 +8,7 @@ import { Cpu } from 'lucide-vue-next';
             <div class="flex flex-col md:flex-row justify-between items-center gap-8">
                 <div class="flex items-center gap-4">
                     <Cpu class="text-green-500" />
-                    <div class="pixel-font text-xs">RY<span class="text-green-500">AN</span> © 2025</div>
+                    <div class="pixel-font text-xs">RY<span class="text-green-500">AN</span> © {{ new Date().getFullYear() }}</div>
                 </div>
 
                 <div class="flex gap-8">
